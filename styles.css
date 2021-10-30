@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+header, main, nav, article {
+  border: 1px solid black;
+}
+
+
+
+.image {
+  height: 150px;
+  width: 150px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
