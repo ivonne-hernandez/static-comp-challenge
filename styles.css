@@ -7,6 +7,49 @@ header, main, nav, article {
   font-family: 'Roboto', sans-serif;
 }
 
+.admin-user {
+  color: #3abbfd;
+  background-color: #2b2b2b;
+}
+.nav-bar-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  background-color: #2b2b2b;
+}
+
+.shares-nav-header {
+  color: #efefef;
+}
+
+.playlists-nav-header, .personal-videos-nav-header {
+  color: #828282;
+}
+
+.nav-logo {
+  width: 8vh;
+  height: 8vh;
+}
+
+.shares-header {
+  background-color: #efefef;
+  font-size: 30px;
+  color: #696969;
+  font-family: 'Roboto', sans-serif;
+  line-height: 85px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 350px 350px;
+  grid-row-gap: 8px;
+  grid-column-gap: 8px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  background-color: #efefef;
+}
+
 .image {
   height: 100%;
   width: 100%;
@@ -18,37 +61,22 @@ header, main, nav, article {
   height: 40%;
 }
 
-main {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-row-gap: 8px;
-  grid-column-gap: 8px;
-  font-family: 'Roboto', sans-serif;
-  margin: 0px;
-  background-color: #efefef;
-}
-
 article {
   background-color: white;
-}
-.shares-header {
-  background-color: #efefef;
-  font-size: 30px;
-  color: #696969;
-  font-family: 'Roboto', sans-serif;
-  line-height: 85px;
+  box-shadow: 2px 5px 5px #00000075;
+  border: 1px solid #c0c1c0;
 }
 
 .card-info-container {
   padding: 5px 15px 15px 15px;
 }
 
-
 .recipient-name {
   margin-top: 10px;
   margin-bottom: 2px;
   color: #696969;
 }
+
 .date-time {
   color: #c0c0c2;
   margin-top: 1px;
@@ -87,14 +115,10 @@ article {
   margin-bottom: 0px;
 }
 
-.nav-bar-container {
-  display: flex;
-  justify-content: start;
-}
-
 .nav-logo-container {
   display: flex;
   justify-content: end;
+  align-items: center;
 }
 
 .admin-user {
